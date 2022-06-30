@@ -50,7 +50,30 @@
 .nav-links .navl {
     color: #fff;
 }
+.nav-right {
+    margin-right: auto!important;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.mr-1 {
+    margin-right: .5rem!important;
+}
 
+.form-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
 .container {
     width: 100%;
